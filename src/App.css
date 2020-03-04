@@ -1,0 +1,42 @@
+@import "~antd/dist/antd.css";
+
+.content{
+  display: flex;
+  justify-content: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter__title {
+  width: 100%;
+}
+
+.filter__item {
+  max-width: 300px;
+  margin-right: 15px;
+}
+
+.validationError,
+.validationError .ant-select-selection {
+  border-color: red;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

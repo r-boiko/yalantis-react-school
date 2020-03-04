@@ -1,0 +1,4 @@
+export const productsTypes = {
+  SET_PRODUCTS: 'SET_PRODUCTS',
+  SET_PRODUCTS_ORIGINS: 'SET_PRODUCTS_ORIGINS',
+};
